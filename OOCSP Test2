@@ -1,0 +1,61 @@
+
+//ALGO
+//prompt for user input (type int)
+//modulo 10 for the first place
+//modulo 100 and divide by ten for the second place
+//modulo 1000 and divide by 100 for the third place
+
+//store each place value as seperate int variable
+//add int vars together
+
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <time.h>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+cout << "Whats your number? ";
+cin >> usIn;
+cout << endl;
+
+firstP = usIn % 10;
+cout << "The first place is: "<< firstP << endl;
+
+secondP = (usIn % 100)/10;
+cout << "The second place is: "<< secondP << endl;
+
+thirdP = (usIn % 1000) / 100;
+cout << "The third place is: "<< thirdP << endl;
+
+
+int checkSum = firstP + secondP + thirdP;
+cout << checkSum;
+
+}
+
+
+//ask for number
+//% 10 for ones place divide by one
+//% 100 for tens place divide by ten
+//% 1000 for hundreds place divide by 100
+//add the numbers up and print the answer
+
+/*int main()
+{
+  printf("Your number: \n", );
+  cin >> x;
+
+  int ones = (x%10)/1;
+  int two = (x%100)/10;
+  int three = (x%1000)/100;
+
+  int checksum = ones + two + three;
+  printf("the answer is %i \n",checksum ); */
+}
