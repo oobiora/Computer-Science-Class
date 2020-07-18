@@ -1,0 +1,23 @@
+1 - get name
+2 - get last name
+3 - convert names from base 35 to base 10
+4 - add names together
+5 - convert names from 10 to the base of birthday
+6 - repeat 3-5 but multiply instead of add
+
+things needed:
+def convertto10():
+    multiply place by base ** a number that starts at 0 and goes up by 1
+def convertfrom10(x,Y):
+    x%Y
+    x/Y
+    use modulo to get remainder
+    use divide to make x smaller
+def lookuptable():
+    the inputed number is the place of the letter you need
+    0-9+A-Z corresponds to each possible letter
+def reverselookuptable():
+    the letter you need gets you to the number it refers to
+    0-9+A-Z corresponds to each possible letter
+
+Program doesnt work

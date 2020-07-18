@@ -1,0 +1,5 @@
+Prompt for a number between 0 and 23 loop around this prompt if the number is out side of the range
+Set a temporary variable to height to manipulate
+create a loop function that will loop throughout the entire height of the pyramid
+in the loop create two for loops that will place the number of spaces (the temp variable minus 1) and number of hashes (number of height minus number of spaces)
+these loops should print the necessary items and the main loop will trigger a print new line and take one from the temporary variable that represents the current height that we are on  
